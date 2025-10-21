@@ -95,6 +95,17 @@ public class CatW3 : MonoBehaviour
             // Below this comment, CALL the method named DecreaseHealth.
             // Notice this method's return type is void- that means we don't
             //      have to store the result anywhere.
+            int h = AddInts(DecreaseHealth) {
+                int _health -= 1
+
+            void start()
+                {int h = _health -= 1
+                int _health == 4
+
+                }
+                
+
+                
             
 
             // STEP 2 ---------------------------------------------------------
