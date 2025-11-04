@@ -19,6 +19,18 @@ The deer will not read the player's inputs, so Update() should not be needed. Th
 What should the method(s) do?
 The method should be able to manipulate the NavMeshAgent component to have the deer transform to the intended location.
 
+### W6
+What member variables does this class need?
+The enable member variable would be needed in order to control whether the bats are chasing the player or not. There should also be a serialized member variable that represents speed, which will allow us to tune the speed of the bats in the inspector. 
+
+What methods does this class need? Should it be something that Unity provides (like Start(), Update(), or a collision method), or one you write?
+We will need an array in order to organize all bats gameobjects into the BatW6 class. There should also be a collision method to determine when a bat comes in contact with the cat.
+
+What should the method(s) do?
+Based on the examples provided on Canvas, the organization of bat gameobjects should allow us to control the bats based on their proximity to the cat and the collision method should allow us to create individual messages for each bat when they come in contact with the cat.
+
+[category_assignment](https://docs.google.com/document/d/1IZFJUcFgjnf2ph_xvqjTaqAltUuFe4KMaDIYs-4cPV8/edit?tab=t.0)
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

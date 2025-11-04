@@ -1,3 +1,4 @@
+using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,6 +10,7 @@ public class BatManager : MonoBehaviour
     [SerializeField] private float _timeBetweenNewMessages = 0.5f;
     [SerializeField] private Transform _playerTransform;
     [SerializeField] private TMP_Text _reactionUiPrefab;
+    
     // STEP 1 -----------------------------------------------------------------
     // Add a member variable named "_bats" that's an array of BatW6 Components.
     // In the Inspector, add ALL of the bats in the Scene.
